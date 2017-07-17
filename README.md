@@ -87,15 +87,15 @@ app/                    --> all of the source files for the application
   index.html            --> app layout file (the main html template file of the app)
 ```
 
-##Bug with the Application
+## Bug with the Application
 
 After adding a new Issue if you click on any issue and then come back to home page, the added issue does not appear.
 
-##Features for Future
+## Features for Future
 
 1. A search option AJAX enabled : could not enable due to GitHub's API exploitation rule which would result in 403 error.
 
 2. Comment on each Issue post to be loaded: could not load due to GitHub's API exploitation rule which would result in 403 error.
 
 
-#This is my first Angular 1.x application, please let me know if any of the practices mode are not proper(Good practices).
+# This is my first Angular 1.x application, please let me know if any of the practices mode are not proper(Good practices).
