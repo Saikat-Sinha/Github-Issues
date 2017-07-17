@@ -1,6 +1,6 @@
 # `Github Issues Clone` — with AngularJS 1.5
 
-This project is an application skeleton for a typical GitHub Issues AngularJS web app.
+This project is an GitHub Issues AngularJS web application.
 
 
 ## Getting Started
@@ -66,20 +66,12 @@ Now browse to the app at [`localhost:8000`].
 ```
 app/                    --> all of the source files for the application
   app.css               --> default stylesheet
-  components/           --> all app specific modules
-    version/              --> version related components
-      version.js                 --> version module declaration and basic "version" value service
-      version_test.js            --> "version" value service tests
-      version-directive.js       --> custom directive that returns the current app version
-      version-directive_test.js  --> version directive tests
-      interpolate-filter.js      --> custom interpolation filter
-      interpolate-filter_test.js --> interpolate filter tests
   views/
-      issuesView/                --> the view template and logic
+      issuesView/                --> the view template and logic for individual issues
         view1.html            --> the partial template
         main.js              --> the controller logic
 
-      mainView/                --> the view template and logic
+      mainView/                --> the view template and logic for main page
         main.html            --> the partial template
         main.js              --> the controller logic
 
