@@ -1,0 +1,229 @@
+body{
+  font-family: 'Lato', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:0;
+  background: #2E3B4B;
+}
+a {
+  text-decoration: none !important;
+}
+.cont-header1{
+  width: 85%;
+}
+.cont-header{
+  margin-bottom: 2px;
+  border-bottom: 2px solid #000000;
+  width: 85%;
+}
+.logo{
+  padding-left: 20px;
+  text-align: left;
+  color: white;
+}
+
+.logo-text h2, h4{
+  display: inline;
+}
+.logo-text h2{
+  font-weight: 600;
+}
+.logo-text h4{
+  border: 1px solid #000;
+  border-radius: 3px;
+  background: indianred;
+  color: #fff;
+}
+.input-group{
+  padding-top: 8px;
+}
+.btn-grey{
+  background: lightslategrey;
+  color: white;
+  height: 40px;
+}
+.btn-green{
+  color: white;
+  font-size: 26px;
+  margin-right: 15px;
+  margin-top: 12px;
+  font-weight: 700;
+}
+.btn-green:hover{
+  border-bottom: 2px solid #000;
+}
+#txtSearch{
+  color: aliceblue;
+  background: #c8cec0;
+  height: 40px;
+}
+.sort-btns{
+  margin-top: 15px;
+}
+.direct-link{
+  font-size: 20px;
+  color: #9095FF !important;
+}
+.book-icn{
+  color: #8a6d3b;
+}
+.det{
+  color: #6F7B89;
+}
+
+.dir-link{
+  padding-top: 12px;
+}
+.IssuesH2{
+  color:#6F7B89;
+}
+.btn-transp{
+  background: transparent;
+  border: 1px solid #f5f5f5;
+  color: white;
+}
+.btn-transp:hover{
+  color: white;
+}
+.btn-transp:focus{
+  color: white;
+}
+.bold-data{
+  font-weight: 600;
+  font-size: 22px;
+  color: #a0b4c6;
+
+}
+.bold-data a{
+  color: #a0b4c6;
+}
+.sp-data{
+  font-size: 16px;
+  color: #f5f5f5;
+}
+.badge-des{
+  font-size: 13px;
+}
+.data-repeating{
+  margin-bottom: 9px;
+  background: #3C4A5B;
+  border-color: transparent;
+  /*border: 2px solid #000000;*/
+  /*border-radius: 14px;*/
+}
+.ques{
+  color: yellow;
+}
+
+.data-gr{
+  margin: 0 auto;
+}
+.issue-btn{
+  margin-bottom: 14px;
+  border-radius: 0%;
+}
+
+.panel-shadow {
+  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+  border: 1px solid #dddddd;
+}
+.panel-white  .panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.panel-white  .panel-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.post .post-heading {
+  height: 95px;
+  padding: 20px 15px;
+}
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+.post .post-heading .meta .title {
+  margin-bottom: 0;
+}
+.post .post-heading .meta .title a {
+  color: black;
+}
+.post .post-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+.post .post-image .image {
+  width: 100%;
+  height: auto;
+}
+.post .post-description {
+  padding: 15px;
+}
+.post .post-description p {
+  font-size: 14px;
+}
+.post .post-description .stats {
+  margin-top: 20px;
+}
+.post .post-description .stats .stat-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.post .post-description .stats .stat-item .icon {
+  margin-right: 8px;
+}
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+.post .post-footer .input-group-addon a {
+  color: #454545;
+}
+.post .post-footer .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.post .post-footer .comments-list .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+.post .post-footer .comments-list .comment .avatar {
+  width: 35px;
+  height: 35px;
+}
+.post .post-footer .comments-list .comment .comment-heading {
+  display: block;
+  width: 100%;
+}
+.post .post-footer .comments-list .comment .comment-heading .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.post .post-footer .comments-list .comment .comment-heading .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+.post .post-footer .comments-list .comment .comment-body {
+  margin-left: 50px;
+}
+.post .post-footer .comments-list .comment > .comments-list {
+  margin-left: 50px;
+}
