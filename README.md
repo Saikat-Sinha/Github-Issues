@@ -1,12 +1,6 @@
 # `Github Issues Clone` — with AngularJS 1.5
 
-This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
-to quickly bootstrap your angular webapp projects and dev environment for these projects.
-
-The seed contains a sample AngularJS application and is preconfigured to install the Angular
-framework and a bunch of development and testing tools for instant web development gratification.
-
-The seed app doesn't do much, just shows how to wire two controllers and views together.
+This project is an application skeleton for a typical GitHub Issues AngularJS web app.
 
 
 ## Getting Started
@@ -23,8 +17,7 @@ You must have Node.js and its package manager (npm) installed.
 Clone the repository using git:
 
 ```
-git clone https://github.com/saikat-sinha/angular-seed.git
-cd Github_Issues_Clone
+git clone https://github.com/Saikat-Sinha/Github-Issues.git
 ```
 
 
@@ -35,6 +28,14 @@ us manage and test the application.
 
 * We get the tools we depend upon via `npm`, the [Node package manager][npm].
 * We get the Angular code via `bower`, a [client-side code package manager][bower].
+
+-Dependencies are:
+    *Angular 1.5.x
+    *Angular-Route 1.5.x
+    *Moment.js
+    *Angular-Moment
+
+
 
 I have preconfigured `npm` to automatically run `bower` so you can simply do:
 
@@ -86,4 +87,15 @@ app/                    --> all of the source files for the application
   index.html            --> app layout file (the main html template file of the app)
 ```
 
+##Bug with the Application
 
+After adding a new Issue if you click on any issue and then come back to home page, the added issue does not appear.
+
+##Features for Future
+
+1. A search option AJAX enabled : could not enable due to GitHub's API exploitation rule which would result in 403 error.
+
+2. Comment on each Issue post to be loaded: could not load due to GitHub's API exploitation rule which would result in 403 error.
+
+
+#This is my first Angular 1.x application, please let me know if any of the practices mode are not proper(Good practices).

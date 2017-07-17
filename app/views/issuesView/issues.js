@@ -9,7 +9,7 @@ angular.module('GitHub.issuesView', ['ngRoute'])
         });
     }])
     .controller('issuesViewCtrl', function($http, $routeParams, $scope) {
-        $http.get('https://api.github.com/repos/facebook/react/issues/' + $routeParams.number)
+        $http.get('https://api.github.com/repos/facebook/react/issues/' + $routeParams.number) //API request for a particular issue number
             .success(function(data) {
                 $scope.name = data.user.login;
                 $scope.title = data.title;
@@ -17,7 +17,7 @@ angular.module('GitHub.issuesView', ['ngRoute'])
                 $scope.created_at = data.created_at;
                 $scope.body = data.body;
             })
-            .error(function() {
+            .error(function() {                 //In case of no API available use Local Storage data stored from mainCtrl controller
                 var userData = JSON.parse(localStorage.getItem('userData'));
                userData.forEach(function (val) {
                    if(val.number == $routeParams.number){

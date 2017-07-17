@@ -8,5 +8,5 @@ angular.module('GitHub', [
 ])
     .config(['$locationProvider', '$routeProvider', function($locationProvider) {
 
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);   //To resolve URL paths
 }]);
